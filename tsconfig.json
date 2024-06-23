@@ -10,6 +10,14 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "paths": {
+      "lib": [
+        "./dist/lib"
+      ],
+      "my-lib": [
+        "./dist/my-lib"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
@@ -28,6 +36,6 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
   }
 }
