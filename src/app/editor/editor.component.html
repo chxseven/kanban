@@ -1,0 +1,6 @@
+<div>
+  <input type="text" (input)="changeState($event)" [value]="currentState" />
+  <button (click)="undo()">Undo</button>
+  <button (click)="redo()">Redo</button>
+</div>
+<p>Current State: {{ currentState }}</p>
